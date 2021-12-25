@@ -1,0 +1,229 @@
+/*Master styles*/
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* fr stands for fractional unit*/
+
+    max-width: 99.9vw;
+
+}
+
+/*Nav styles*/
+.nav-wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    box-sizing: content-box !important;
+    max-width: 100%;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapp > .left-side > div  {
+    text-decoration: none ;
+    font-size: 0.9em ;
+    text-transform: uppercase ;
+    margin-right: 20px ;
+    box-sizing: content-box;
+}
+
+.nav-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding: 0px;
+}
+
+.nav-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+
+.nav-link:hover {
+    border-bottom: 1px solid black !important;
+}
+.nav-link a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+
+.active-nav-link a {
+    color: black;
+}
+
+.btn-danger {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+    text-transform: uppercase;
+
+}
+
+.btn-danger:hover {
+    transition: 0.5s;
+    background-color: #1a9891;
+    filter: brigthtness(10%);
+    border-color: #1a9891;
+}
+
+
+.btn-check:active+.btn-danger, .btn-check:checked+.btn-danger, .btn-danger.active, .btn-danger:active, .show>.btn-danger.dropdown-toggle {
+    background-color: #1a9891;
+    border-color: #1a9891;
+}
+
+.dropdown-item {
+    background-color: lightseagreen;
+    color: #fff;
+}
+
+.dropdown-item a{
+    background-color: #1a9891;
+}
+
+.dropdown-item:hover{
+    background-color: #1a9891;
+    color: #fff;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1a98a1;
+}
+
+.btn-check:focus+.btn-danger, .btn-danger:focus {
+    color: #fff;
+    background-color: #1a98a1;
+    border-color: #1a98a1;
+    box-shadow: 0 0 0 .25rem rgba(71 , 189, 178,.55);
+}
+
+.dropdown-menu {
+    background-color: lightseagreen;
+}
+
+/*Portfolio styles*/
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+
+}
+
+.resume
+{
+    height: 350px;
+    max-width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(image/resume.png)
+}
+
+.resume:hover
+{
+    background-image: url("image/resume.gif");
+}
+
+
+.portfolio-img-background {
+    height: 350px;
+    max-width: 1fr;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    text-transform: 10%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    text-align: left;
+    width: 33vw;
+}
+
+.logo-wrapper img {
+    min-width: 1fr;
+    max-width: 33vw;
+    margin-top: 20px;
+
+}
+
+.logo-wrapper img:hover {
+    min-width: 1fr;
+    max-width: 33vw;
+    margin-top: 20px;
+    background-image: url("image/unc-logo-footer.png");
+    background-size: 200px 100px;
+}
+
+
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: transparent;
+    max-width: 25vw;
+    justify-content: center;
+    padding-top: 5px;
+
+
+}
+
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color:lightseagreen;
+
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+    border-radius: 15px;
+}
+
+.button-darken {
+    transition: 1s;
+    filter: brightness(80%);
+}
+
+/* About */
+.two-colums-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-img-wrapper img {
+    width: 80%;
+    padding-left: 60px;
+
+}
+.profile-text-wrapper {
+    padding: 30px;
+}
+
+.profile-text-wrapper h1 {
+    color: lightseagreen;
+}
