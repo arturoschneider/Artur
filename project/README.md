@@ -120,8 +120,8 @@ until you give the site your personal touch!
 As an brief example you can do so by changing the attributes of the .img-text-wrapper .subtitle where you can change color, size, justify the text and more:
 
 ## ¡Thanks!
-IT's been a pleasure to be a part of such a high end course, which has given the opportunity to learn and get in touch with people from different countries and backgrounds.
-It's been an incredible journey and I couldn't be more grateful to everyone involved. Again, THANKS A LOT!
+IT's been a pleasure to be a part of such a high end course, in which I have been given the opportunity to learn and get in touch with people from different countries and backgrounds.
+It's been an incredible journey and I couldn't be more grateful to everyone involved. Again, ¡THANKS A LOT!
 
 ## NO ENDORSEMENT
 For this project there is no endorse to any commercial product or service, including any subjects of analysis. Any reference to specific commercial products,
