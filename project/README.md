@@ -3,12 +3,12 @@
 # Introfy
 
 Introfy is an interactive website to introduce yourself to people, and get them to know about your personal profile, academic activities, work experience, goals, interests or aby information
-you want to show in fancy way
+you want to show in fancy way.
 
 This readme provides more information on how you can implement your own version of Introdufy with your the info you want to share with others.
 
 ## Video Demo
-See video presentatios [here!](https://www.youtube.com/watch?v=x8jxE_14plM&t=11s)
+See video presentation [here!](https://www.youtube.com/watch?v=x8jxE_14plM&t=11s)
 
 ## Requirements
 You will need any code editor software that support:
@@ -22,7 +22,7 @@ I recommend you to install Visual Studio Code, which is a powerful tool. You can
 ## Description
 
 The web site was thought for those who are seeking for a way to get people to know with precision their academic, work and experience paths, maybe for a
-job selection proccesses, an interviews or scolarships.
+job selection proccesses, an interview or scolarships.
 
 For that, the site gives the user the opportunity to create an interactive personal site which has all the information needed and the links
 to redirect end-users, recruiters or coleagues to web sites where study programs, certificates, information about organizations, grades, etc. can be found.
